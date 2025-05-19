@@ -21,7 +21,6 @@ def get_lowest_price_item(def_index, paint_index):
     try:
         url = f"https://csfloat.com/api/v1/listings?sort_by=lowest_price&def_index={def_index}&paint_index={paint_index}&sort_by=lowest_price&type=buy_now&limit=1"
         res = requests.get(url, headers={'Authorization': API_KEY}).json()
-        print(res)
         data = res["data"]
         if (not data):
             return None
