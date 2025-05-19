@@ -7,6 +7,7 @@ pip install -r requirements.txt
 
 # usage 
 add csfloat key to `.env`
+
 edit `config.toml`
 ```
 python3 main.py
