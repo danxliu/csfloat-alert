@@ -3,6 +3,6 @@
 update_interval = 60
 
 [items]
-def_indexes = [ 514, 509, 512 ]
-paint_indexes = [ 1109, 1112, 1111 ]
-alert_prices = [ 119, 119, 119 ]
+def_indexes = [ ]
+paint_indexes = [ ]
+alert_prices = [ ]
