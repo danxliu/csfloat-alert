@@ -5,7 +5,8 @@ please i just want a knife for a good price
 pip install -r requirements.txt
 ```
 
-# usage
+# usage 
+add csfloat key to `.env`
 edit `config.toml`
 ```
 python3 main.py
